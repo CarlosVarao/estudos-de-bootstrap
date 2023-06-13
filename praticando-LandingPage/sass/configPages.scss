@@ -1,0 +1,41 @@
+@mixin configDisplay($display, $direction, $align, $junst, $gap){
+  display: $display;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $junst;
+  gap: $gap;
+}
+
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../Assets/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  height: 95%;
+  width: 100%;
+  @include configDisplay(flex,column,center,center,0px);
+
+  & .form {
+    height: 650px;
+    width: 460px;
+    margin: 20px;
+    background-color: #131212f1;
+    @include configDisplay(flex,column,center,none,0px);
+
+    & .logo{
+      & img{
+        width: 200px;
+      }
+    } 
+
+  }
+}
+
+footer{
+  @include configDisplay(flex,row,top,center,0px )
+}
