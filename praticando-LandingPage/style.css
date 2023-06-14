@@ -28,16 +28,16 @@
   .box {
     font-size: 14px;
   }
-  .box-content .one-form span, .box-content .one-form input {
+  .box-content .one-form label, .box-content .one-form input {
     height: 30px;
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 325px) {
   .box {
-    font-size: 12px;
+    font-size: 13px;
   }
-  .box-content .one-form span, .box-content .one-form input {
+  .box-content .one-form label, .box-content .one-form input {
     height: 30px;
     font-size: 12px;
   }

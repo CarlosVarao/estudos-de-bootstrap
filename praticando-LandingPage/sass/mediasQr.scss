@@ -28,9 +28,9 @@
 
   .box-content{
     & .one-form{
-      & span, input{
+      & label, input{
         height: 30px;
-        font-size: 12px;
+        font-size: 13px;
       }
     }
   }  
@@ -39,12 +39,12 @@
 @media screen and (max-width: 325px) {
 
   .box{
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .box-content{
     & .one-form{
-      & span, input{
+      & label, input{
         height: 30px;
         font-size: 12px;
       }
