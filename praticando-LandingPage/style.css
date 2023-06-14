@@ -1,4 +1,10 @@
 @charset "UTF-8";
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 body {
   height: 100vh;
   width: 100vw;
@@ -8,7 +14,7 @@ body {
 }
 
 main {
-  height: 95%;
+  height: 93%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -16,9 +22,8 @@ main {
   justify-content: center;
   gap: 0px;
 }
-main .form {
-  height: 650px;
-  width: 460px;
+main section {
+  max-width: 460px;
   margin: 20px;
   background-color: rgba(19, 18, 18, 0.9450980392);
   display: flex;
@@ -27,11 +32,23 @@ main .form {
   justify-content: none;
   gap: 0px;
 }
-main .form .logo img {
+main section .logo img {
   width: 200px;
+}
+main form {
+  width: 100%;
+  color: white;
+}
+main form .btn-subimt {
+  display: flex;
+  flex-direction: none;
+  align-items: none;
+  justify-content: center;
+  gap: 0px;
 }
 
 footer {
+  height: 7%;
   display: flex;
   flex-direction: row;
   align-items: top;

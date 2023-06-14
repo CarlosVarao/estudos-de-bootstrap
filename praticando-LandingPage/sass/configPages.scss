@@ -1,11 +1,8 @@
-@mixin configDisplay($display, $direction, $align, $junst, $gap){
-  display: $display;
-  flex-direction: $direction;
-  align-items: $align;
-  justify-content: $junst;
-  gap: $gap;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
-
 
 body {
   height: 100vh;
@@ -16,26 +13,34 @@ body {
 }
 
 main {
-  height: 95%;
+  height: 93%;
   width: 100%;
-  @include configDisplay(flex,column,center,center,0px);
+  @include configDisplay(flex, column, center, center, 0px);
 
-  & .form {
-    height: 650px;
-    width: 460px;
+  & section {
+    max-width: 460px;
     margin: 20px;
     background-color: #131212f1;
-    @include configDisplay(flex,column,center,none,0px);
+    @include configDisplay(flex, column, center, none, 0px);
 
-    & .logo{
-      & img{
+    & .logo {
+      & img {
         width: 200px;
       }
-    } 
+    }
+  }
 
+  & form {
+    width: 100%;
+    color: white;
+
+    & .btn-subimt {
+      @include configDisplay(flex, none, none, center, 0px);
+    }
   }
 }
 
-footer{
-  @include configDisplay(flex,row,top,center,0px )
+footer {
+  height: 7%;
+  @include configDisplay(flex, row, top, center, 0px);
 }
