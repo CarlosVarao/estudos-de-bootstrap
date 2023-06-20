@@ -1,4 +1,4 @@
-# • Repositório de estudos <img align="center" alt="Icone-Javascript" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+# • Repositório de estudos 	&nbsp; <img align="center" alt="Icone-Javascript" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
 
 Neste Repositório contém meus arquivos que usei e ainda uso para sempre fortalecer meus conhecimentos na area !
 
